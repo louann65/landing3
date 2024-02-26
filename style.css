@@ -1,0 +1,128 @@
+body {
+	font-family: monospace;
+	color: darkgray;
+	font-size: small;
+	font-family: geneva;
+}
+
+h1 {
+	color: white;
+	text-shadow: darkgray;
+	font-family: grafton ;
+	font-size: xx-large;
+}
+
+
+
+a {
+	color: brown; 
+	font-size: medium; 
+	text text-decoration: none; 
+	font-family: geneva ;
+	transition: .3s;
+}
+
+a:hover {
+	color: skyblue;
+}
+
+
+h2 {
+	color: darkblue;
+	font-family:geneva;
+	font-size: xx-large;
+}
+
+h3{
+	font-size: 20;
+	font-family: revert;
+	color: darkblue;
+
+}
+
+.circular--square { 
+	border-radius: 70%;
+	width: 200px;
+	height: 200px;
+
+
+
+}
+
+.banner{
+	background-color: ;
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0;
+	text-align: center;
+
+}
+
+.coordonées{
+	color: darkblue;
+	font-size: x-large;
+}
+
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+
+
+
+.imagecard{
+	align-content: center;
+}
+
+.card{ 
+	background: ghostwhite;
+	font-size: small;
+	box-shadow: 0px 0px 10px rgba(30, 30, 30, 18.30);
+	border-radius: 4px;
+	width: 200px;
+	text-align:center;
+	padding: 100px;
+	align-content: center;
+	margin: 8px ;
+ }
+
+
+
+.cardexp{
+	background: ghostwhite;
+	box-shadow: 0px 0px 10px rgba(30, 30, 30, 18.30);
+	border-radius: 4px;
+	width: 200px;
+	text text-align: center;
+	padding: 100px;
+	align-content: center;
+	margin: 8px;
+}
+
+@media (max-width: 500px){
+.cards{
+	grid-template-columns: 1fr;
+}
+}
+
+
+.end{
+	background: darkblue;
+	
+}
+
+.end {
+    background: rgba(0, 0, 139, 0.7); /* Couleur de fond avec opacité */
+    padding: 20px;
+    color: white; 
+}
+
+.banner {
+    background-color: rgba(270, 25, 255, 0.7); /* Couleur de fond avec opacité */
+    padding: 20px;
+    text-align: center;
+}
